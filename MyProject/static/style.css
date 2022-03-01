@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto+Mono:ital,wght@1,100&family=Shadows+Into+Light&family=Source+Serif+4:ital,wght@1,300&display=swap');
+html {
+    font-family: 'Quintessential', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(63, 36, 70);
+}

@@ -1,0 +1,33 @@
+ul {
+    list-style: none;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 20rem;
+    box-shadow: 0 2px 8px rgba(160, 12, 12, 0.3);
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: rgb(167, 168, 157);
+}
+
+li {
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 1px solid rgb(155, 156, 147);
+    padding-bottom: 1rem;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(66, 68, 52);
+    transition: all ease .3s;
+}
+
+li a:hover,
+li a:active {
+    color: rgb(243, 233, 91);
+}

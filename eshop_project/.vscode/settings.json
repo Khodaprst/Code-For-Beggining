@@ -1,0 +1,18 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:eshop_project}/db.sqlite3",
+            "name": "db.sqlite3"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:eshop_project}/db.sqlite3",
+            "name": "db.sqlite3",
+            "group": "MySql"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

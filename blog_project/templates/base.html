@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'app.css' %}">
+    {% block header_reference %}
+        Welcome ;)
+    {% endblock %}
+</head>
+<body>
+<header id="main-navigation">
+    <h1><a href="{% url 'starting-page' %}">Amir H.</a></h1>
+    <nav>
+        <a href="{% url 'posts-page' %}">All Posts</a>
+    </nav>
+</header>
+{% block content %}{% endblock %}
+{% block footer_references %}
+    <h2><a href="{% url 'starting-page' %}">phone number: +98 901 501 8657</a></h2>
+    <h2><a href="{% url 'starting-page' %}">E-mail Address: 4mirdeist@gmail.com</a></h2>
+    <h2><a href="{% url 'starting-page' %}">Instagram: https://instagram.com/4mir.omega</a></h2>
+    <h2><a href="{% url 'starting-page' %}">Telegram: https://t.me/AmirKhodaprst</a></h2>
+{% endblock %}
+</body>
+</html>
